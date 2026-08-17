@@ -1,0 +1,136 @@
+svg {
+    width: 30px;
+    height: 30px;
+    color: #a7a7a7;
+}
+
+.footer {
+    color: #fff;
+    padding: 2rem 3rem;
+    font-family: 'DM Sans', sans-serif;
+}
+
+svg:hover {
+    color: white;
+}
+
+/* Topo do footer */
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.footer-logo .gradient {
+    background: linear-gradient(90deg, #13B0F5 0%, #E70FAA 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: bold;
+    font-size: 1.6rem;
+    font-family: poppins, sans-serif;
+}
+
+.footer-contact {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.footer-contact span {
+    color: #ccc;
+    font-size: 0.95rem;
+}
+
+.footer-icons a {
+    margin-left: 0.8rem;
+    color: #fff;
+    font-size: 1.3rem;
+    transition: color 0.3s;
+}
+
+
+
+hr {
+    border: none;
+    border-top: 1px solid #333;
+    margin: 1rem 0;
+}
+
+/* Parte inferior */
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.footer-nav {
+    display: flex;
+    gap: 1.8rem;
+}
+
+.footer-nav a {
+    color: #a7a7a7;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-nav a:hover {
+    color: #fff;
+}
+
+.footer-rights {
+    color: #a7a7a7;
+    font-size: 16px;
+}
+
+.footer-rights span {
+    background: linear-gradient(90deg, #13B0F5 0%, #E70FAA 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+}
+
+#autor {
+    font-size: 16px;
+}
+
+@media screen and (max-width:860px) {
+    .footer-top {
+        display: grid;
+        text-align: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .footer-logo{
+        margin-bottom: 8px;
+    }
+    .footer-icons{
+        margin-top: 5px;
+    }
+
+    .footer-bottom {
+        display: grid;
+        justify-content: center;
+        text-align: center;
+        margin-top: 0px;
+    }
+
+    .footer-nav {
+        display: grid;
+        margin-bottom: 17px;
+        gap: 8px;
+    }
+    .footer-contact {
+    display: grid
+;
+    align-items: center;
+    gap: 9px;
+}
+.footer-rights{
+    margin-top: 9px;
+}
+}
